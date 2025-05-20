@@ -37,7 +37,7 @@
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
-                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Elementos Programables 1</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Redes Digitales</h1>
                                 <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Programación con Arduino II</h1>
+                        <h1 class="fw-bolder mb-1">Wifi ESP32 – Sensores Digitales, Analógicos e Inteligentes</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src="assets/jesus.png" alt="..." />
@@ -61,11 +61,11 @@
                             </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 31, 2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Febrero 05, 2025</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
-                        <a class="badge bg-primary text-decoration-none link-light" >Tinkercad</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >ESP32</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Wokwi</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Sensores</a>
 
                     </header>
                 </div>
@@ -79,29 +79,25 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">Los servomotores son componentes clave en una amplia variedad de aplicaciones industriales y de automatización, y desempeñan un papel fundamental en el control preciso de la posición, velocidad y movimiento en sistemas mecánicos y robóticos. Su aplicación es fundamental en la realización de este código, por lo que a continuación se presentarán una serie de circuitos simulados utilizando servomotores.</p>
-                        <p class="fs-6 mb-4">Esta es la segunda práctica realizada en el laboratorio de Elementos Programables y se utilizó la lataforma Tinkercat.</p>
+                        <p class="fs-6 mb-4">Esta práctica permitió configurar entornos de simulación (Wokwi) y programación (Arduino IDE) para probar y analizar diversos sensores con microcontroladores ESP. Se trabajó con un botón (entrada digital), potenciómetro (analógico) y DHT22 (inteligente), verificando su funcionamiento mediante circuitos virtuales y programas que mostraban datos en el monitor serial. Además, se implementó un sistema de monitoreo con sensor PIR para detección de movimiento, ajustando su sensibilidad según su documentación técnica. Los resultados incluyeron simulaciones, diagramas de conexión y pruebas físicas, validando el correcto procesamiento de señales digitales (activación por botón o PIR), analógicas (lectura variable del potenciómetro para controlar un LED) e inteligentes (medición de temperatura/humedad). Esta experiencia reforzó el manejo de sensores en proyectos de IoT y automatización, destacando su aplicación en escenarios reales de monitoreo y control.</p>
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Los servomotores son esenciales para el control de movimiento preciso y la automatización en una amplia gama de aplicaciones industriales y de ingeniería. Su capacidad para ofrecer control de alta precisión y respuesta rápida los convierte en un componente vital en la mejora de la eficiencia, la calidad y la productividad en muchas industrias. los servomotores se pueden programar para controlar su posición, velocidad y otras características de movimiento. La programación de servomotores se realiza generalmente a través de un controlador o un microcontrolador que envía señales al servomotor para indicarle cómo debe moverse.</p>
-                        <p class="fs-6 mb-4">La programación de servomotores permite una flexibilidad significativa en la automatización y el control de sistemas mecánicos y robóticos. Para hacer esto, los diagramas y los códigos programados los encontramos en Tinkercat.</p>
+                        <p class="fs-6 mb-4">Esta práctica tiene como objetivo explorar el funcionamiento de diferentes tipos de sensores (digitales, analógicos e inteligentes) utilizando el ESP32/ESP8266 en entornos de simulación (WOKWI) y hardware real. Se trabajará con: 1) un sensor PIR (digital) para detección de movimiento, 2) un potenciómetro (analógico) para leer valores variables y controlar intensidad lumínica, y 3) un DHT22 (inteligente) para medir temperatura y humedad con datos preprocesados. Los microcontroladores ESP, conocidos por su bajo costo y capacidades inalámbricas, permitirán interactuar con estos sensores a través de sus pines GPIO, demostrando cómo las señales físicas (presencia, rotación o condiciones ambientales) se convierten en datos digitales mediante programación en Arduino IDE.</p>
+                        <p class="fs-6 mb-4">Los sensores se clasifican según su salida: los digitales (como botones o PIR) generan señales binarias; los analógicos (como potenciómetros) producen valores continuos; y los inteligentes (como el DHT22) integran procesamiento interno. Esta distinción es crucial para aplicaciones de IoT y automatización, donde el ESP32 destaca por su versatilidad al procesar múltiples entradas y generar respuestas (encender LEDs, mostrar datos en serial o activar alarmas). La práctica incluirá circuitos de prueba, código para monitoreo del PIR (ajustando sensibilidad y tiempos de retardo) y visualización de datos, reforzando el entendimiento de cómo los microcontroladores interpretan señales del entorno para crear sistemas interactivos.</p>
                         
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                        <p class="fs-6 mb-4">Protoboard - 1</p>
-                        <p class="fs-6 mb-4">Placa Arduino UNO - 1</p>
-                        <p class="fs-6 mb-4">Jumpers macho-macho - 20</p>
-                        <p class="fs-6 mb-4">Resistencias 1K Ohms - 2</p>
-                        <p class="fs-6 mb-4">Resistencias 220 Ohms - 4</p>
-                        <p class="fs-6 mb-4">Leds - 2</p>
-                        <p class="fs-6 mb-4">Servomotores - 2</p>
-                        <p class="fs-6 mb-4">Potenciómetros - 2</p>
-                        <p class="fs-6 mb-4">Fuente de voltaje - 2 </p>
+                        <p class="fs-6 mb-4">Node MCU ESP8266 o ESP32</p>
+                        <p class="fs-6 mb-4">- LED, resistencia de 220 Ohms</p>
+                        <p class="fs-6 mb-4">- Botón y resistencia de 1Khom</p>
+                        <p class="fs-6 mb-4">- Sensores: Potenciómetro, DHT22, PIR</p>
+                        <p class="fs-6 mb-4">- Protoboard y cables</p>
+
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Para realizar los siguientes circuitos se tomaron los recursos de Tinkercat, se tomó el código y se armó el circuito. La mayoría de los circuitos son muy similares, por lo que se necesitaron los mismos componentes.</p>
+                        <p class="fs-6 mb-4">En esta práctica exploramos el uso de sensores digitales (como botones y PIR), analógicos (como potenciómetros) e inteligentes (como el DHT22) con microcontroladores ESP32/ESP8266, implementando circuitos tanto en simuladores (Wokwi) como en hardware real mediante Arduino IDE, donde programamos su funcionamiento para aplicaciones específicas (detección de movimiento, lectura de variables ambientales y control de intensidad lumínica), validando su operación a través de pruebas sistemáticas que demostraron la efectividad de estos componentes en proyectos de automatización e IoT, desde la simulación hasta la implementación física.</p>
 
                         
                             <p id="simulacion">
@@ -127,13 +123,13 @@
                     
                             <p id="diseño">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                            <p class="fs-6 mb-4">Circuitos.</p>
+                            <p class="fs-6 mb-4">En esta etapa se definió la estructura de los circuitos para la correcta conexión y funcionamiento de los sensores digitales, analógicos e inteligentes con el NodeMCU. Se seleccionaron los GPIOs adecuados para la lectura de señales y se diseñaron esquemas eléctricos que guiaron la implementación en la simulación y el montaje físico. Se consideraron aspectos clave como la alimentación de los sensores, la estabilidad de las señales y la correcta interpretación de los datos enviados al microcontrolador. Gracias a este diseño estructurado, se logró una integración eficiente de los sensores en el sistema, garantizando su funcionalidad en las pruebas y la construcción final del circuito.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="1000px" src="img/circuitos.png" alt="..." /></figure>
                             
                             
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Cada circuito se construyó siguiendo los diagramas presentados en las secciones ''simulación'' y ''diseño''.</p>
+                            <p class="fs-6 mb-4">El circuito se construirá en una protoboard, conectando el ESP32 a los componentes (LED y botones) utilizando cables adecuados. Las conexiones se realizarán siguiendo el diagrama de diseño. Una vez construido el circuito, se cargarán los programas desarrollados en el IDE de Arduino para probar su funcionamiento.</p>
                             
                             
 
@@ -168,15 +164,14 @@
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">En conclusión, los servomotores, Arduino y los potenciómetros son componentes y herramientas fundamentales en la creación y control de circuitos y sistemas que implican movimientos precisos y controlados. Los servomotores proporcionan una capacidad de movimiento altamente precisa y son esenciales en aplicaciones de robótica, automatización y control de posición. Arduino, como plataforma de desarrollo electrónica de código abierto, ofrece un entorno accesible y versátil para programar y controlar servomotores y otros dispositivos, lo que facilita la creación de proyectos personalizados. Los potenciómetros, por otro lado, permiten una interfaz directa entre el usuario y el sistema. En conjunto, estos componentes desempeñan un papel fundamental en la automatización, la robótica, la mecatrónica y una amplia gama de campos de la ingeniería.</p>
+                        <p class="fs-6 mb-4">Esta práctica permitió comprender el funcionamiento y aplicación de tres tipos de sensores (digitales, analógicos e inteligentes) con el ESP32, demostrando cómo pueden usarse para activar dispositivos como LEDs o enviar datos mediante comunicación serial. A través de simulaciones en Wokwi y pruebas en hardware real, se configuraron correctamente los pines GPIO para leer señales de sensores (como botones, potenciómetros y el DHT22) y controlar salidas, validando su utilidad en proyectos de automatización —desde sistemas básicos hasta aplicaciones IoT más complejas, como la detección de movimiento con el sensor PIR—. La práctica reforzó la importancia de seleccionar el tipo de sensor adecuado según sus características (señales binarias, valores variables o datos preprocesados) y su integración efectiva con microcontroladores.</p>
                         
                         
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
                         <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
-                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
-                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        <p class="fs-6 mb-4">Gomez, S. B., & Herrera, H. J. R. (2022). Sistema IoT basado en ESP32 para el control y monitoreo de cultivos en invernadero con enfoque de agricultura 4.0. Ingeniería investiga, 4..</p>
                         
                         <p id="descargables">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
