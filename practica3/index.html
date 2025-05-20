@@ -37,7 +37,7 @@
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
-                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Elementos Programables 1</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Redes Digitales</h1>
                                 <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Attiny85 Digital</h1>
+                        <h1 class="fw-bolder mb-1">Wifi ESP32 – Thingspeak</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src="assets/jesus.png" alt="..." />
@@ -61,12 +61,12 @@
                             </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 07, 2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Febrero 12, 2025</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
-                        <a class="badge bg-primary text-decoration-none link-light" >Tinkercad</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Attiny85</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >ESP32</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Thingspeak</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Wokwi</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Sensores</a>
 
                     </header>
                 </div>
@@ -80,28 +80,26 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">El ATtiny85 es un microcontrolador de bajo costo y bajo consumo de energía fabricado por Microchip Technology. Se utiliza en proyectos que van desde la automatización del hogar hasta la robótica y la electrónica portátil. Durante esta práctica utilizamos un Attiny85 Digital para elaborar diversos circuitos.</p>
-                        <p class="fs-6 mb-4">Esta es la tercera práctica realizada en el laboratorio de Elementos Programables y se utilizó la lataforma Tinkercat.</p>
+                        <p class="fs-6 mb-4">Esta práctica permitió configurar la plataforma ThingSpeak para visualizar datos en la nube mediante el uso de sensores digitales (botón), analógicos (potenciómetro) e inteligentes (DHT22) conectados a módulos ESP32/ESP8266, los cuales se programaron en Arduino IDE y se probaron en simulaciones con Wokwi antes de su implementación física. Aunque no se logró observar la transmisión en tiempo real, se consiguió visualizar las gráficas de los datos recolectados, demostrando el potencial de ThingSpeak para aplicaciones IoT. Adicionalmente, se integró un sensor PIR para monitorear movimiento, reforzando conceptos clave como conectividad WiFi, procesamiento de datos en la nube y la importancia de validar circuitos mediante simulaciones antes del montaje físico en protoboard.</p>
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">El ATtiny85 Pertenece a la familia de microcontroladores AVR de 8 bits, los cuales son adecuados para una variedad de aplicaciones donde se requiere un controlador embebido de bajo costo y bajo consumo de energía El ATtiny85 es popular entre los entusiastas de la electrónica y los diseñadores de proyectos embebidos debido a su tamaño compacto, bajo costo y capacidad para manejar una variedad de tareas. Se utiliza en proyectos que van desde la automatización del hogar hasta la robótica y la electrónica portátil. También es programable a través de una variedad de herramientas de desarrollo y lenguajes de programación, como el entorno de desarrollo integrado (IDE) de Arduino.</p>
-                        <p class="fs-6 mb-4">Esta práctica muestra la aplicación de ATiny85 en diversos circuitos.</p>
+                        <p class="fs-6 mb-4">Esta práctica demostró el uso de ThingSpeak como plataforma IoT para visualizar datos de sensores conectados a módulos ESP32/ESP8266, donde configuramos sensores digitales (como botones), analógicos (potenciómetros) e inteligentes (DHT22) para enviar información a la nube mediante WiFi. Aunque no se logró visualizar completamente el envío en tiempo real, se generaron gráficos en ThingSpeak que validaron el concepto de monitoreo remoto. El proceso incluyó simulaciones previas en Wokwi, programación en Arduino IDE y la creación de un tablero público para el sensor PIR, reforzando la importancia de estas herramientas en aplicaciones de automatización y análisis de datos en proyectos IoT.</p>
                         
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                        <p class="fs-6 mb-4">Protoboard - 2</p>
-                        <p class="fs-6 mb-4">Placa Arduino UNO - 1</p>
-                        <p class="fs-6 mb-4">Jumpers macho-macho - 20</p>
-                        <p class="fs-6 mb-4">Resistencias 1K ohms - 2</p>
-                        <p class="fs-6 mb-4">Resistencias 220 Oms - 4</p>
-                        <p class="fs-6 mb-4">Pulsadores - 2</p>
-                        <p class="fs-6 mb-4">Leds - 3</p>
-                        <p class="fs-6 mb-4">Attiny85 - 1</p>
+                        <p class="fs-6 mb-4">- NodeMCU ESP8266 o ESP32</p>
+                        <p class="fs-6 mb-4">LED</p>
+                        <p class="fs-6 mb-4">- Resistencia de 220 Ohms</p>
+                        <p class="fs-6 mb-4">- Botón</p>
+                        <p class="fs-6 mb-4">- Resistencia de 1 Kohm</p>
+                        <p class="fs-6 mb-4">- Potenciómetro</p>
+                        <p class="fs-6 mb-4">- Sensor DHT2</p>
+                        <p class="fs-6 mb-4">- Sensor PIR</p>
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Para realizar los siguientes circuitos se tomaron los recursos de Tinkercat, se colocó el código y se armó el circuito. La mayoría de los circuitos son muy similares, por lo que se necesitaron los mismos componentes en lamayor pare de los mismos.</p>
+                        <p class="fs-6 mb-4">Esta práctica abarcó desde la configuración inicial del IDE de Arduino para programar el ESP32 hasta la implementación de proyectos IoT con ThingSpeak, pasando por ejercicios fundamentales de electrónica digital. Comenzamos instalando los controladores necesarios y explorando el pinout del ESP32, seguido de programas básicos para controlar LEDs (encendido/apagado, parpadeo con retardos y control mediante botones con condiciones lógicas OR/AND). Posteriormente, avanzamos hacia aplicaciones IoT: configuramos sensores digitales (botón, PIR), analógicos (potenciómetro) e inteligentes (DHT22), validando su funcionamiento tanto en simulaciones Wokwi como en hardware real. La práctica culminó con la integración a ThingSpeak, donde transmitimos datos de los sensores a la nube, implementando especialmente el monitoreo del PIR en un tablero público, lo que demostró el flujo completo desde la adquisición de datos físicos hasta su visualización remota, consolidando conceptos clave de programación embebida, manejo de sensores y aplicaciones IoT.</p>
 
                         
                             <p id="simulacion">
@@ -144,13 +142,13 @@
                     
                             <p id="diseño">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                            <p class="fs-6 mb-4">Circuitos.</p>
+                            <p class="fs-6 mb-4">Los diseños utilizados en esta práctica, proporcionados por el maestro Huber, incluyeron tres variantes: un circuito básico con solo un LED, otro con un botón de control y un tercero con dos botones que implementan lógicas OR y AND. Cada configuración conectó los componentes (LED y botones) a pines GPIO específicos del NodeMCU ESP32, siguiendo diagramas esquemáticos detallados que aseguraron conexiones estables y uso óptimo de los puertos. Para los circuitos con sensores, se planificaron cuidadosamente las conexiones -asignando pines digitales para botones y el LED, y verificando niveles de voltaje adecuados- mientras que la programación en Arduino IDE integró tanto el control local del LED como la comunicación con ThingSpeak, utilizando su API para el envío de datos desde sensores como el DHT22 y el PIR. Esta estructura permitió transitar de ejercicios básicos de electrónica digital hasta aplicaciones IoT funcionales.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="1000px" src="img/circuitos.png" alt="..." /></figure>
                             
                             
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Cada circuito se construyó siguiendo los diagramas presentados en las secciones ''simulación'' y ''diseño''.</p>
+                            <p class="fs-6 mb-4">El montaje físico se realizó en una protoboard, donde se conectó el NodeMCU ESP32 a los diferentes componentes (LED, botones y sensores) utilizando cables dupont, siguiendo fielmente los diagramas esquemáticos proporcionados. Tras completar las conexiones, se cargaron los programas desarrollados en el IDE de Arduino al microcontrolador para verificar su funcionamiento. Posteriormente, se realizaron pruebas exhaustivas de cada módulo: primero validando el control básico del LED con los botones, luego comprobando la lectura correcta de los sensores, y finalmente confirmando la transmisión exitosa de datos a la plataforma ThingSpeak a través de la conexión WiFi. Todo el proceso fue meticulosamente documentado mediante fotografías del circuito armado, capturas de pantalla del código implementado y videos demostrativos del sistema en operación, lo que permitió verificar tanto el correcto ensamblado físico como el adecuado funcionamiento de la lógica programada.</p>
                             
                             
 
@@ -202,7 +200,7 @@
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">En conclusión, El ATtiny85 es popular entre los electrónicos debido a su tamaño compacto, bajo costo y capacidad para manejar una variedad de tareas, tal como lo vimos en la práctica. Se utiliza en proyectos que van desde la automatización del hogar hasta la robótica y la electrónica portátil. También es programable a través de una variedad de herramientas de desarrollo y lenguajes de programación, como el entorno de desarrollo integrado (IDE) de Arduino.</p>
+                        <p class="fs-6 mb-4">Esta práctica nos permitió integrar exitosamente hardware y software utilizando el ESP32, desde el control básico de LEDs con botones hasta la transmisión de datos a la nube mediante ThingSpeak, donde validamos el funcionamiento de sensores digitales (botón, PIR), analógicos (potenciómetro) e inteligentes (DHT22) tanto en simulaciones Wokwi como en implementación física, demostrando cómo estos componentes interactúan con el microcontrolador y la plataforma IoT para crear sistemas de monitoreo remoto, adquiriendo así competencias fundamentales en programación embebida, manejo de GPIOs y transmisión WiFi que sientan las bases para desarrollar proyectos más complejos de automatización y IoT.</p>
                         
                         
 
