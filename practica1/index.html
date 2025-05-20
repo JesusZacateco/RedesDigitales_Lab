@@ -37,7 +37,7 @@
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
-                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Elementos Programables 1</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Redes Digitales</h1>
                                 <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Programación con Arduino</h1>
+                        <h1 class="fw-bolder mb-1">Wifi ESP32 Entradas y Salidas Digitales</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src="assets/jesus.png" alt="..." />
@@ -61,11 +61,11 @@
                             </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 24, 2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Enero 29, 2025</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
-                        <a class="badge bg-primary text-decoration-none link-light" >Tinkercad</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
-                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >ESP32</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Básico</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Wokwi</a>
 
                     </header>
                 </div>
@@ -79,33 +79,29 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">La programación se ha convertido en una habilidad necesaria en la sociedad digital ya que es una herramienta utilizada en practcamente todas las áreas, de la misma manera, en un mundo impulsado por la electrónica, la comprensión de los circuitos eléctricos es fundamental para entender las sociedades digitales. Es por ello que en esta práctica aplicamos nuestros conocimientos básicos de construcción de circuitos y programación para armar 18 circuitos diferentes utilizando leds.</p>
-                        <p class="fs-6 mb-4">Esta es la primer primer práctica realizada en el laboratorio de Elementos Programable sy se utilizó la lataforma Tinkercat</p>
+                        <p class="fs-6 mb-4">En esta práctica, aprenderás a utilizar las entradas y salidas digitales del ESP32 y el NodeMCU, comenzando con la configuración del IDE de Arduino para programar estas placas y revisando sus pines disponibles. Desarrollarás diversos programas para controlar un LED, iniciando con su encendido y apagado básico, luego implementando patrones de parpadeo con retardos y, posteriormente, manejando su comportamiento mediante botones. Explorarás condiciones lógicas OR y AND al usar dos botones, lo que te permitirá comprender cómo interactuar con componentes externos y procesar señales digitales.</p>
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Para poder armar un circuito en físico es necesario partir de un diagrama esquemático en el que podamos visualizar y planificar el circuito para evitar que este se queme o no funcione; a la par de esto, debemos desarrollar un código, en este caso utilizamos Arduino, plataforma de desarrollo basada en una placa electrónica de hardware libre que incorpora un microcontrolador re-programable y una serie de pines, permite permiten establecer conexiones entre el microcontrolador y los diferentes sensores y actuadores de una manera muy sencilla.</p>
-                        <p class="fs-6 mb-4">Los diagramas y los códigos programados pudimos encontrarlos en Tinkercat.</p>
+                        <p class="fs-6 mb-4">El ESP32 es un microcontrolador versátil y económico con Wi-Fi y Bluetooth, ideal para proyectos de IoT y automatización. En esta práctica, aprenderás a configurar el IDE de Arduino para programarlo, explorar sus pines GPIO y controlar dispositivos como LEDs mediante entradas digitales (botones) y salidas digitales, aplicando lógicas básicas (AND/OR) para entender cómo procesar señales binarias (0 y 1) y convertirlas en acciones físicas, sentando las bases para proyectos más avanzados.</p>
                         
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                        <p class="fs-6 mb-4">Protoboard - 1</p>
-                        <p class="fs-6 mb-4">Placa Arduino UNO - 1</p>
-                        <p class="fs-6 mb-4">Jumpers macho-macho - 20</p>
-                        <p class="fs-6 mb-4">Resistencia 1K Ohms - 2</p>
-                        <p class="fs-6 mb-4">Resistencia 220 Ohms - 4</p>
-                        <p class="fs-6 mb-4">Pulsadores - 2</p>
-                        <p class="fs-6 mb-4">Leds - 4</p>
-                        <p class="fs-6 mb-4">Display 7 segmentos cátodo comúm - 1</p>
+                        <p class="fs-6 mb-4">- Node MCU ESP8266 o ESP32</p>
+                        <p class="fs-6 mb-4">4 botones</p>
+                        <p class="fs-6 mb-4">4 resistencias de 1K ohm</p>
+                        <p class="fs-6 mb-4">Protoboard y cables</p>
+                        <p class="fs-6 mb-4">1 resistencia de 220 ohms</p>
+                     
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Para realizar los siguientes circuitos se tomaron los recursos de Tinkercat, se tomó el código y se armó el circuito. La mayoría de los circuitos son muy similares, por lo que se necesitaron los mismos componentes.</p>
+                        <p class="fs-6 mb-4">En esta práctica, comenzaremos configurando el IDE de Arduino para programar el ESP32, instalando los controladores necesarios y revisando su pinout para identificar los pines GPIO disponibles. Luego, desarrollaremos programas básicos para controlar un LED, empezando por su encendido y apagado simple, seguido de un patrón de parpadeo con retardos. Posteriormente, implementaremos el control del LED mediante botones, primero con un solo botón y luego usando dos botones con condiciones lógicas: primero con una operación OR (donde el LED se enciende al presionar cualquiera de los dos botones) y después con una condición AND (donde el LED solo se activa si ambos botones se presionan simultáneamente), lo que nos permitirá entender el manejo de entradas digitales y su interacción con salidas en el ESP32.</p>
 
                         
                             <p id="simulacion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
-                            <p class="fs-6 mb-4">A continuación se presentan los 18 códigos de los circuitos realizados, estos se utilizaron para poder simular el sistema.</p>
+                            <p class="fs-6 mb-4">Se utilizará Wokwi para simular cada uno de los circuitos desarrollados en los objetivos anteriores. En cada simulación se probarán los diferentes programas para asegurarse de que los sistemas funcionan correctamente antes de implementar el hardware real. Se incluirán capturas de pantalla de las simulaciones y videos de las pruebas realizadas.</p>
                             <p class="fs-6 mb-4">1.	Blink</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="300px" src="img/1.png" alt="..." /></figure>
                             <p class="fs-6 mb-4">2.	Salida digital HIGH</p>
@@ -149,13 +145,13 @@
                     
                             <p id="diseño">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                            <p class="fs-6 mb-4">Circuitos.</p>
+                            <p class="fs-6 mb-4">El diseño del sistema consta de un NodeMCU ESP32 conectado a un LED y botones que permiten controlar el estado del LED. Cada uno de los botones se conectará a un pin digital del ESP32, y el LED se conectará a otro pin digital. El diseño del circuito se ilustrará mediante un diagrama esquemático que se incluirá en el reporte.</p>
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="1000px" src="img/circuitos.png" alt="..." /></figure>
                             
                             
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Cada circuito se construyó siguiendo los diagramas presentados en las secciones ''simulación'' y ''diseño''.</p>
+                            <p class="fs-6 mb-4">El circuito se construirá en una protoboard, conectando el ESP32 a los componentes (LED y botones) utilizando cables adecuados. Las conexiones se realizarán siguiendo el diagrama de diseño. Una vez construido el circuito, se cargarán los programas desarrollados en el IDE de Arduino para probar su funcionamiento.</p>
                             
                             
 
@@ -221,15 +217,14 @@
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Aprender los principios básicos de electrónica y programación es fundamental en la era actual, donde la tecnología está presente en casi todos los aspectos de nuestras vidas. Muchas de las innovaciones tecnológicas que están transformando nuestra sociedad requieren una comprensión de la electrónica y la programación. Ya sea que quieras automatizar tu hogar, construir un robot o desarrollar una aplicación, tener conocimientos en electrónica y programación te brinda las herramientas necesarias para llevar a cabo tus proyectos personales y creativos. aprender los principios básicos de electrónica y programación te brinda una base sólida para comprender y participar en el mundo tecnológico en constante cambio. Estas habilidades son relevantes en una variedad de contextos, desde la carrera profesional hasta la resolución de problemas cotidianos.</p>
+                        <p class="fs-6 mb-4">Esta práctica permitió comprender los conceptos fundamentales del trabajo con microcontroladores, destacando la importancia de seleccionar las compuertas lógicas adecuadas para garantizar un funcionamiento óptimo. A través del desarrollo de programas básicos, se exploró el manejo de entradas y salidas digitales del ESP32, controlando LEDs mediante botones y aplicando condiciones lógicas OR y AND, tanto en simulaciones como en hardware real. Además, se adquirieron habilidades clave en la configuración del IDE de Arduino, el reconocimiento de pines GPIO y la comunicación efectiva entre el entorno de programación y el módulo NodeMCU. Estos conocimientos sientan las bases para proyectos más complejos, demostrando la versatilidad del ESP32 en el procesamiento de señales digitales y la implementación de lógicas de control.</p>
                         
                         
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
-                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
-                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        <p class="fs-6 mb-4">Santos, S., & Santos, S. (2024, 24 octubre). ESP32 Pinout Reference: Which GPIO pins should you use? | Random Nerd Tutorials. Random Nerd Tutorials. https://randomnerdtutorials.com/esp32-pinout-reference-gpios/</p>
+                  
                         
                         <p id="descargables">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
